@@ -22,13 +22,13 @@ const MessageInputField =({name})=>{
     return(
     <div className={classes.root}>
         <Grid container>
-            <Grid xs={1}>
+            <Grid　item xs={1}>
                 <Avatar src={avatarPath}/>
             </Grid>
-            <Grid xs={9}>
+            <Grid item xs={9}>
                 <MessageField name={name} setText={setText} text={text}/>
             </Grid>
-            <Grid xs={1}>
+            <Grid item xs={1}>
                 ボタン
             </Grid>
         </Grid>
