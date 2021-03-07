@@ -8,8 +8,9 @@ import MessageField from './MessageField'
 const useStyles =makeStyles({
     root:{
 gridRow: 2,
-margin: '26px'
-    },
+margin: '26px',
+
+    }
 })
 
 const MessageInputField =({name})=>{
@@ -24,7 +25,7 @@ const MessageInputField =({name})=>{
             <Grid xs={1}>
                 <Avatar src={avatarPath}/>
             </Grid>
-            <Grid xs={10}>
+            <Grid xs={9}>
                 <MessageField name={name} setText={setText} text={text}/>
             </Grid>
             <Grid xs={1}>
