@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {List,ListItem} from '@material-ui/core'
+import {List} from '@material-ui/core'
 import { makeStyles } from "@material-ui/core/styles";
 
 import MessageItem from "./MessageItem"
